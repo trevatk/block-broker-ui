@@ -1,9 +1,11 @@
 import React from 'react';
 
+import ListMessages from './features/messages/List'
+
 function App() {
   return (
     <div>
-      <h2>Block Broker</h2>
+      <ListMessages />
     </div>
   );
 }
